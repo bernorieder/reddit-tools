@@ -31,7 +31,8 @@ foreach($fullist as $listitem) {
 	$thread = "http://www.reddit.com" . $listitem->data->permalink . ".json";
 	$url = $listitem->data->url;
 	
-	$fn_thread = $jsondir . "thread_" . $id . ".json";
+	$timestamp = date("Y-m-d_H-i");
+	$fn_thread = $jsondir . "thread_" . $id . "_" . $timestamp . ".json";
 
 	if(!file_exists($fn_thread)) {
 	
