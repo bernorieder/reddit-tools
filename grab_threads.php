@@ -42,7 +42,7 @@ foreach($fullist as $listitem) {
 	$counter++;
 	echo $counter . " ";
 	
-	sleep(.2);				// let's just back off a litte and wait for 200ms to be polite
+	sleep(0.2);				// let's just back off a litte and wait for 200ms to be polite
 }
 
 echo "\n\nfinished";
