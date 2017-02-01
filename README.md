@@ -9,9 +9,9 @@ This is a collection of PHP command line scripts to grab data from Reddit and tr
 
 For all scripts a running PHP command line parser is necessary. Which subreddits or files to work with and some other stuff can be edited directly in the top section of each file.
 
-# How do you use this?
+# How do I use this?
 
-1. Make sure that you have PHP installed (to test: go into your command line and type "php -ver" - if you get a version info, you're good to go, if not => Google "install php YOUROS");
+1. Make sure that you have PHP installed (to test: go into your command line and type "php -ver" - if you get a version info with at least PHP 5.5.4, you're good to go, if not => google "install php YOUROS");
 2. Download files and put them into a directory;
 3. Edit grab_list.php and chenge the first couple of lines to fit your data desire;
 4. Type php grab_list.php into your command line, which should create a folder and a file fith a list of the posts you specified;
@@ -19,4 +19,4 @@ For all scripts a running PHP command line parser is necessary. Which subreddits
 6. Type php grab_threads.php and wait; this should download a file with the comment thread per post; 
 7. Edit and run tocsv_list.php (same as before) to transform the post list into a CSV;
 8. Edit and run tocsv_comment.php (same as before) to transform all of the comments into into a CSV;
-9. If there is a problem, consider asking someone who knows that kind of stuff; if that fails, sumbit an issue on github; do not email the author of this script;
+9. If there is a problem, consider asking someone who knows this kind of stuff; if that fails, sumbit an issue on github; do not email the author of this script;
