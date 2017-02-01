@@ -14,9 +14,9 @@ For all scripts a running PHP command line parser is necessary. Which subreddits
 1. Make sure that you have PHP installed (to test: go into your command line and type "php -ver" - if you get a version info with at least PHP 5.5.4, you're good to go, if not => google "install php YOUROS");
 2. Download files and put them into a directory (the script needs to have the permission to write to this directory => google "directory write permission YOUROS");
 3. Edit grab_list.php and change the first couple of lines to fit your data desire;
-4. Type php grab_list.php into your command line, which should create a folder and a file fith a list of the posts you specified;
+4. Type "php grab_list.php" into your command line, which should create a folder and a file fith a list of the posts you specified;
 5. Edit grab_threads.php same as above;
-6. Type php grab_threads.php and wait; this should download a file with the comment thread per post; 
-7. Edit and run tocsv_list.php (same as before) to transform the post list into a CSV;
-8. Edit and run tocsv_comment.php (same as before) to transform all of the comments into into a CSV;
+6. Type "php grab_threads.php" and wait; this should download a file with the comment thread per post; 
+7. Edit and run tocsv_list.php (same as before "php toc...") to transform the post list into a CSV;
+8. Edit and run tocsv_comment.php to transform all of the comments into into a CSV;
 9. If there is a problem, consider asking someone who knows this kind of stuff; if that fails, sumbit an issue on github; do not contact the author of this script;
