@@ -32,8 +32,8 @@ fputcsv($fp,$headers,$delimiter,"\"","\\");
 
 // iterate over posts
 foreach($json as $post) {
-	$tmp = array($post->data->id,$post->data->author,$post->data->title,$post->data->score,$post->data->ups,$post->data->created,$post->data->domain,preg_replace("/&amp;/", "&", $post->data->url));
-	fputcsv($fp,$tmp,$delimiter,"\"","\\");
+	$ln = array($post->data->id,$post->data->author,$post->data->title,$post->data->score,$post->data->ups,$post->data->created,$post->data->domain,preg_replace("/&amp;/", "&", $post->data->url));
+	fputcsv($fp,$ln,$delimiter,"\"","\\");
 }
 
 fclose($fp);
