@@ -19,4 +19,4 @@ For all scripts a running PHP command line parser is necessary. Which subreddits
 6. Type php grab_threads.php and wait; this should download a file with the comment thread per post; 
 7. Edit and run tocsv_list.php (same as before) to transform the post list into a CSV;
 8. Edit and run tocsv_comment.php (same as before) to transform all of the comments into into a CSV;
-9. If there is a problem, consider asking someone who knows this kind of stuff; if that fails, sumbit an issue on github; do not email the author of this script;
+9. If there is a problem, consider asking someone who knows this kind of stuff; if that fails, sumbit an issue on github; do not contact the author of this script;
