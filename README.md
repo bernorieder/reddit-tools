@@ -12,7 +12,7 @@ For all scripts a running PHP command line parser is necessary. Which subreddits
 # How do I use this?
 
 1. Make sure that you have PHP installed (to test: go into your command line and type "php -ver" - if you get a version info with at least PHP 5.5.4, you're good to go, if not => google "install php YOUROS");
-2. Download files and put them into a directory;
+2. Download files and put them into a directory (the script needs to have the permission to write to this directory => google "directory write permission YOUROS");
 3. Edit grab_list.php and change the first couple of lines to fit your data desire;
 4. Type php grab_list.php into your command line, which should create a folder and a file fith a list of the posts you specified;
 5. Edit grab_threads.php same as above;
