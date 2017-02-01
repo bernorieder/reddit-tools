@@ -13,7 +13,7 @@ For all scripts a running PHP command line parser is necessary. Which subreddits
 
 1. Make sure that you have PHP installed (to test: go into your command line and type "php -ver" - if you get a version info with at least PHP 5.5.4, you're good to go, if not => google "install php YOUROS");
 2. Download files and put them into a directory;
-3. Edit grab_list.php and chenge the first couple of lines to fit your data desire;
+3. Edit grab_list.php and change the first couple of lines to fit your data desire;
 4. Type php grab_list.php into your command line, which should create a folder and a file fith a list of the posts you specified;
 5. Edit grab_threads.php same as above;
 6. Type php grab_threads.php and wait; this should download a file with the comment thread per post; 
