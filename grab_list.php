@@ -71,7 +71,7 @@ while($postcount < $poststoget) {
 	echo $postcount . " ";
 }
 
-echo "\n\nfinished";
+echo "\n\nfinished\n\n";
 
 file_put_contents($fn_output, json_encode($posts));
 
